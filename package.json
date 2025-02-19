@@ -8,6 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@recogito/text-annotator": "^3.0.0-rc.54"
+  },
   "devDependencies": {
     "typescript": "^5.7.3",
     "vite": "^6.1.1"
