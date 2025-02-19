@@ -1,4 +1,5 @@
 import type { UserConfig } from 'vite'
+import sourcemaps from 'rollup-plugin-sourcemaps2';
 
 export default {
   server: {
@@ -6,6 +7,9 @@ export default {
     host: true
   },
   build: {
-    sourcemap: true
+    sourcemap: true,
+    rollupOptions: {
+      plugins: [sourcemaps()]
+    }
   }
 } satisfies UserConfig
