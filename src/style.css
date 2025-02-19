@@ -1,0 +1,46 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  background: #e2e2e2;
+  padding: 0;
+  margin: 0;
+}
+
+#content {
+  max-width: 800px;
+  background-color: #fff;
+  padding: 40px;
+  border-style: solid;
+  border-color: #cfcfcf;
+  border-width: 0 1px;
+}
+
+#content .not-annotatable {
+  color: dimgray;
+  border: 3px solid wheat;
+}
+
+h1 {
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+p {
+  font-size: 17px;
+  line-height: 160%;
+}
