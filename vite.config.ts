@@ -11,5 +11,8 @@ export default {
     rollupOptions: {
       plugins: [sourcemaps()]
     }
+  },
+  optimizeDeps: {
+    exclude: ['@recogito/text-annotator']
   }
 } satisfies UserConfig
